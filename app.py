@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv(r"E:\Practice_Datasets\creditcard.csv")
+df = pd.read_csv("creditcard.csv")
 
 st.title("💳 Credit Card Fraud Analysis")
 
